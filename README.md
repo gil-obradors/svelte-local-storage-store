@@ -50,6 +50,8 @@ export const preferences = persisted('local-storage-key', 'default-value', {
   storage: 'session' // 'session' for sessionStorage, defaults to 'local'
 })
 ```
+> **Note**
+> You will not see any data stored until you do the first save of data.
 
 ## License
 
